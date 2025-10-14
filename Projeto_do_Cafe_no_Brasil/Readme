@@ -1,0 +1,9 @@
+    # 1️⃣ Instalar dependências
+    pip install pandas numpy matplotlib plotly streamlit scikit-learn statsmodels openpyxl
+
+    # 2️⃣ Executar dashboard
+    cd Projeto_do_Cafe_no_Brasil
+    python -m streamlit run analise_regressao_dashboard.py
+
+    # 3️⃣ Gerar relatório e gráficos automáticos
+    python analise_regressao_dashboard.py --report
