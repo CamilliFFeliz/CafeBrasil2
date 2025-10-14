@@ -1,65 +1,35 @@
-Perfeito! Aqui está uma versão **simples e resumida** do README para o seu dashboard:
-
 ````markdown
 # Dashboard de Análise do Café
 
-Este projeto apresenta um **dashboard em Streamlit** para análise de dados de produção de café, com gráficos, modelos de regressão e visualização de séries temporais.
-
----
-
-## Estrutura do projeto
-
-- `Area_Colhida.xlsx` e `Area_Plantada.xlsx`: Dados de entrada  
-- `analise_regressao_dashboard.py`: Script principal do dashboard  
-- `Info.jpeg`: Infográfico exibido na aba correspondente  
-- `graficos/`: Pasta para gráficos gerados automaticamente  
-- `relatorio_regressao.txt`: Relatório gerado automaticamente  
-
----
+Dashboard em **Streamlit** para análise de dados de café com gráficos, regressões e série temporal.
 
 ## Pré-requisitos
-
 ```bash
 pip install pandas numpy matplotlib plotly streamlit scikit-learn statsmodels openpyxl
 ````
 
----
-
 ## Como executar
 
-* **Dashboard interativo:**
+* Dashboard interativo:
 
 ```bash
 streamlit run analise_regressao_dashboard.py
 ```
 
-* **Gerar relatório e gráficos automaticamente:**
+* Gerar relatório e gráficos:
 
 ```bash
 python analise_regressao_dashboard.py --report
 ```
 
----
-
 ## Funcionalidades
 
-* Estatísticas descritivas e matriz de correlação
-* Histogramas e gráficos de distribuição
-* Regressão linear, polinomial e exponencial
-* Regressão linear multivariada
-* Série temporal e previsão SARIMA
-* Exibição de infográfico
-
----
-
-## Observações
-
-* Os arquivos Excel e a imagem devem estar na mesma pasta do script
-* Para previsões SARIMA, recomenda-se ao menos 24 meses de dados
+* Estatísticas e correlação
+* Histogramas e gráficos de regressão (linear, polinomial e exponencial)
+* Série temporal SARIMA
+* Infográfico
 
 ```
 
----
-
-Se você quiser, posso **fazer uma versão ainda mais enxuta**, em 10–12 linhas, focando só no essencial para rodar o dashboard. Quer que eu faça?
+Se quiser, posso **criar uma versão “ultra enxuta” de 5 linhas**, só com execução e objetivo. Quer que eu faça?
 ```
