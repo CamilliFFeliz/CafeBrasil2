@@ -1,0 +1,1525 @@
+{
+  "metadata": {
+    "generatedAt": "2026-06-02T13:03:47",
+    "projectName": "Café Brasil - Análise de Dados",
+    "totalRecords": 8185,
+    "startDate": "2015-01-01",
+    "endDate": "2025-06-01",
+    "localities": 33,
+    "levels": [
+      "BR",
+      "GR",
+      "UF"
+    ],
+    "sources": [
+      "Área Colhida",
+      "Área Plantada"
+    ]
+  },
+  "sourceSummaries": [
+    {
+      "sourceLabel": "Área Colhida",
+      "records": 4092,
+      "validBrazilRecords": 124,
+      "localities": 33,
+      "startDate": "2015-01-01",
+      "endDate": "2025-06-01",
+      "avgArabica": 486564.4959,
+      "avgCanephora": 456866.5897,
+      "avgTotalCafe": 631424.6341,
+      "avgReal": 807.1723,
+      "avgDolar": 172.4034,
+      "dataCompletenessPct": 26.96
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "records": 4093,
+      "validBrazilRecords": 125,
+      "localities": 33,
+      "startDate": "2015-01-01",
+      "endDate": "2025-06-01",
+      "avgArabica": 1614798.312,
+      "avgCanephora": 459509.488,
+      "avgTotalCafe": 2074307.8,
+      "avgReal": 806.4856,
+      "avgDolar": 174.0933,
+      "dataCompletenessPct": 27.03
+    }
+  ],
+  "descriptiveStats": {
+    "Cafe_Arabica": {
+      "media": 250651.0499,
+      "mediana": 12541.0,
+      "moda": 2000.0,
+      "variancia": 241980170637.2145,
+      "desvioPadrao": 491914.8002,
+      "minimo": 1.0,
+      "maximo": 2244409.0,
+      "registrosValidos": 4633
+    },
+    "Cafe_Canephora": {
+      "media": 88265.7944,
+      "mediana": 17978.0,
+      "moda": 127.0,
+      "variancia": 21202403166.0345,
+      "desvioPadrao": 145610.4501,
+      "minimo": 1.0,
+      "maximo": 1724657.0,
+      "registrosValidos": 3711
+    },
+    "Real": {
+      "media": 806.829,
+      "mediana": 540.885,
+      "moda": 384.35,
+      "variancia": 248023.1941,
+      "desvioPadrao": 498.0193,
+      "minimo": 384.35,
+      "maximo": 2627.79,
+      "registrosValidos": 248
+    },
+    "Dolar": {
+      "media": 173.2552,
+      "mediana": 147.755,
+      "moda": 228.75,
+      "variancia": 5407.1923,
+      "desvioPadrao": 73.5336,
+      "minimo": 93.0,
+      "maximo": 455.87,
+      "registrosValidos": 246
+    },
+    "TotalCafe": {
+      "media": 273579.6907,
+      "mediana": 25700.0,
+      "moda": 410.0,
+      "variancia": 315491692507.1675,
+      "desvioPadrao": 561686.4717,
+      "minimo": 2.0,
+      "maximo": 3969066.0,
+      "registrosValidos": 5442
+    }
+  },
+  "brazilAnnualSeries": [
+    {
+      "year": 2015,
+      "sourceLabel": "Área Colhida",
+      "arabica": 1514145.7273,
+      "canephora": 450261.8182,
+      "totalCafe": 1964407.5455,
+      "real": 454.1791,
+      "dolar": 163.39,
+      "records": 11
+    },
+    {
+      "year": 2015,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1878296.0833,
+      "canephora": 719006.6667,
+      "totalCafe": 2597302.75,
+      "real": 453.545,
+      "dolar": 125.8167,
+      "records": 12
+    },
+    {
+      "year": 2016,
+      "sourceLabel": "Área Colhida",
+      "arabica": 1567158.6364,
+      "canephora": 433478.9091,
+      "totalCafe": 2000637.5455,
+      "real": 493.8609,
+      "dolar": null,
+      "records": 11
+    },
+    {
+      "year": 2016,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1775144.7273,
+      "canephora": 515187.7273,
+      "totalCafe": 2290332.4545,
+      "real": null,
+      "dolar": 153.2582,
+      "records": 11
+    },
+    {
+      "year": 2017,
+      "sourceLabel": "Área Colhida",
+      "arabica": 1541044.5,
+      "canephora": 496690.5,
+      "totalCafe": 2037735.0,
+      "real": 470.2275,
+      "dolar": null,
+      "records": 12
+    },
+    {
+      "year": 2017,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1761639.25,
+      "canephora": 481735.5,
+      "totalCafe": 2243374.75,
+      "real": null,
+      "dolar": 138.6217,
+      "records": 12
+    },
+    {
+      "year": 2018,
+      "sourceLabel": "Área Colhida",
+      "arabica": 540645.4545,
+      "canephora": 419513.0,
+      "totalCafe": 693195.6364,
+      "real": 437.9,
+      "dolar": null,
+      "records": 12
+    },
+    {
+      "year": 2018,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1742753.3333,
+      "canephora": 467406.5833,
+      "totalCafe": 2210159.9167,
+      "real": null,
+      "dolar": 113.1725,
+      "records": 12
+    },
+    {
+      "year": 2019,
+      "sourceLabel": "Área Colhida",
+      "arabica": 388.3333,
+      "canephora": null,
+      "totalCafe": 388.3333,
+      "real": 414.9608,
+      "dolar": 176.77,
+      "records": 12
+    },
+    {
+      "year": 2019,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1557256.6667,
+      "canephora": 400754.75,
+      "totalCafe": 1958011.4167,
+      "real": null,
+      "dolar": 109.5442,
+      "records": 12
+    },
+    {
+      "year": 2020,
+      "sourceLabel": "Área Colhida",
+      "arabica": 410.0,
+      "canephora": null,
+      "totalCafe": 410.0,
+      "real": 539.1558,
+      "dolar": 142.24,
+      "records": 12
+    },
+    {
+      "year": 2020,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1522942.0,
+      "canephora": 403256.4167,
+      "totalCafe": 1926198.4167,
+      "real": null,
+      "dolar": 110.955,
+      "records": 12
+    },
+    {
+      "year": 2021,
+      "sourceLabel": "Área Colhida",
+      "arabica": 410.0,
+      "canephora": null,
+      "totalCafe": 410.0,
+      "real": 889.5375,
+      "dolar": null,
+      "records": 12
+    },
+    {
+      "year": 2021,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1445291.6667,
+      "canephora": 405352.25,
+      "totalCafe": 1850643.9167,
+      "real": null,
+      "dolar": 203.5292,
+      "records": 12
+    },
+    {
+      "year": 2022,
+      "sourceLabel": "Área Colhida",
+      "arabica": 410.0,
+      "canephora": null,
+      "totalCafe": 410.0,
+      "real": 1297.2067,
+      "dolar": null,
+      "records": 12
+    },
+    {
+      "year": 2022,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1460154.9167,
+      "canephora": 408642.0,
+      "totalCafe": 1868796.9167,
+      "real": null,
+      "dolar": 242.9644,
+      "records": 12
+    },
+    {
+      "year": 2023,
+      "sourceLabel": "Área Colhida",
+      "arabica": 410.0,
+      "canephora": null,
+      "totalCafe": 410.0,
+      "real": 958.8158,
+      "dolar": null,
+      "records": 12
+    },
+    {
+      "year": 2023,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1524805.5833,
+      "canephora": 407871.0,
+      "totalCafe": 1932676.5833,
+      "real": null,
+      "dolar": 183.2622,
+      "records": 12
+    },
+    {
+      "year": 2024,
+      "sourceLabel": "Área Colhida",
+      "arabica": 410.5833,
+      "canephora": null,
+      "totalCafe": 410.5833,
+      "real": 1276.45,
+      "dolar": 146.55,
+      "records": 12
+    },
+    {
+      "year": 2024,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1539407.5833,
+      "canephora": 413468.5833,
+      "totalCafe": 1952876.1667,
+      "real": null,
+      "dolar": 267.8992,
+      "records": 12
+    },
+    {
+      "year": 2025,
+      "sourceLabel": "Área Colhida",
+      "arabica": 247364.0,
+      "canephora": 458311.0,
+      "totalCafe": 323749.1667,
+      "real": 2374.9783,
+      "dolar": null,
+      "records": 6
+    },
+    {
+      "year": 2025,
+      "sourceLabel": "Área Plantada",
+      "arabica": 1522105.3333,
+      "canephora": 413616.0,
+      "totalCafe": 1935721.3333,
+      "real": null,
+      "dolar": 389.66,
+      "records": 6
+    }
+  ],
+  "priceSeries": [
+    {
+      "date": "2015-01-01",
+      "yearMonth": "2015-01",
+      "real": 465.93,
+      "dolar": 137.88
+    },
+    {
+      "date": "2015-02-01",
+      "yearMonth": "2015-02",
+      "real": 459.99,
+      "dolar": 136.35
+    },
+    {
+      "date": "2015-03-01",
+      "yearMonth": "2015-03",
+      "real": 447.1,
+      "dolar": null
+    },
+    {
+      "date": "2015-04-01",
+      "yearMonth": "2015-04",
+      "real": 446.395,
+      "dolar": 128.63
+    },
+    {
+      "date": "2015-05-01",
+      "yearMonth": "2015-05",
+      "real": 433.82,
+      "dolar": 129.57
+    },
+    {
+      "date": "2015-06-01",
+      "yearMonth": "2015-06",
+      "real": 419.255,
+      "dolar": 117.05
+    },
+    {
+      "date": "2015-07-01",
+      "yearMonth": "2015-07",
+      "real": 434.735,
+      "dolar": 137.3233
+    },
+    {
+      "date": "2015-08-01",
+      "yearMonth": "2015-08",
+      "real": 455.965,
+      "dolar": 137.09
+    },
+    {
+      "date": "2015-09-01",
+      "yearMonth": "2015-09",
+      "real": 467.53,
+      "dolar": 121.21
+    },
+    {
+      "date": "2015-10-01",
+      "yearMonth": "2015-10",
+      "real": 473.75,
+      "dolar": 123.32
+    },
+    {
+      "date": "2015-11-01",
+      "yearMonth": "2015-11",
+      "real": 474.355,
+      "dolar": 132.94
+    },
+    {
+      "date": "2015-12-01",
+      "yearMonth": "2015-12",
+      "real": 485.315,
+      "dolar": 131.4
+    },
+    {
+      "date": "2016-01-01",
+      "yearMonth": "2016-01",
+      "real": 490.565,
+      "dolar": 130.2
+    },
+    {
+      "date": "2016-02-01",
+      "yearMonth": "2016-02",
+      "real": 490.445,
+      "dolar": 142.0
+    },
+    {
+      "date": "2016-03-01",
+      "yearMonth": "2016-03",
+      "real": 478.89,
+      "dolar": 152.15
+    },
+    {
+      "date": "2016-04-01",
+      "yearMonth": "2016-04",
+      "real": 463.54,
+      "dolar": 149.35
+    },
+    {
+      "date": "2016-05-01",
+      "yearMonth": "2016-05",
+      "real": 472.62,
+      "dolar": 154.57
+    },
+    {
+      "date": "2016-07-01",
+      "yearMonth": "2016-07",
+      "real": 491.695,
+      "dolar": 160.61
+    },
+    {
+      "date": "2016-08-01",
+      "yearMonth": "2016-08",
+      "real": 488.78,
+      "dolar": 166.83
+    },
+    {
+      "date": "2016-09-01",
+      "yearMonth": "2016-09",
+      "real": 490.995,
+      "dolar": 149.66
+    },
+    {
+      "date": "2016-10-01",
+      "yearMonth": "2016-10",
+      "real": 507.01,
+      "dolar": 161.03
+    },
+    {
+      "date": "2016-11-01",
+      "yearMonth": "2016-11",
+      "real": 533.905,
+      "dolar": 163.98
+    },
+    {
+      "date": "2016-12-01",
+      "yearMonth": "2016-12",
+      "real": 529.27,
+      "dolar": 155.46
+    },
+    {
+      "date": "2017-01-01",
+      "yearMonth": "2017-01",
+      "real": 508.015,
+      "dolar": 148.96
+    },
+    {
+      "date": "2017-02-01",
+      "yearMonth": "2017-02",
+      "real": 511.44,
+      "dolar": 142.04
+    },
+    {
+      "date": "2017-03-01",
+      "yearMonth": "2017-03",
+      "real": 497.285,
+      "dolar": 135.27
+    },
+    {
+      "date": "2017-04-01",
+      "yearMonth": "2017-04",
+      "real": 476.775,
+      "dolar": null
+    },
+    {
+      "date": "2017-05-01",
+      "yearMonth": "2017-05",
+      "real": 461.66,
+      "dolar": 141.28
+    },
+    {
+      "date": "2017-06-01",
+      "yearMonth": "2017-06",
+      "real": 450.77,
+      "dolar": 145.63
+    },
+    {
+      "date": "2017-07-01",
+      "yearMonth": "2017-07",
+      "real": 448.875,
+      "dolar": 144.61
+    },
+    {
+      "date": "2017-08-01",
+      "yearMonth": "2017-08",
+      "real": 455.335,
+      "dolar": 139.61
+    },
+    {
+      "date": "2017-09-01",
+      "yearMonth": "2017-09",
+      "real": 456.115,
+      "dolar": 138.96
+    },
+    {
+      "date": "2017-10-01",
+      "yearMonth": "2017-10",
+      "real": 449.705,
+      "dolar": 139.1
+    },
+    {
+      "date": "2017-11-01",
+      "yearMonth": "2017-11",
+      "real": 449.415,
+      "dolar": 135.18
+    },
+    {
+      "date": "2017-12-01",
+      "yearMonth": "2017-12",
+      "real": 450.12,
+      "dolar": 131.18
+    },
+    {
+      "date": "2018-01-01",
+      "yearMonth": "2018-01",
+      "real": 446.89,
+      "dolar": 126.39
+    },
+    {
+      "date": "2018-02-01",
+      "yearMonth": "2018-02",
+      "real": 442.375,
+      "dolar": 124.03
+    },
+    {
+      "date": "2018-03-01",
+      "yearMonth": "2018-03",
+      "real": 434.075,
+      "dolar": 119.67
+    },
+    {
+      "date": "2018-04-01",
+      "yearMonth": "2018-04",
+      "real": 430.265,
+      "dolar": 114.79
+    },
+    {
+      "date": "2018-05-01",
+      "yearMonth": "2018-05",
+      "real": 440.865,
+      "dolar": 107.24
+    },
+    {
+      "date": "2018-06-01",
+      "yearMonth": "2018-06",
+      "real": 451.77,
+      "dolar": 101.15
+    },
+    {
+      "date": "2018-07-01",
+      "yearMonth": "2018-07",
+      "real": 445.885,
+      "dolar": 117.45
+    },
+    {
+      "date": "2018-08-01",
+      "yearMonth": "2018-08",
+      "real": 430.205,
+      "dolar": 116.63
+    },
+    {
+      "date": "2018-09-01",
+      "yearMonth": "2018-09",
+      "real": 418.275,
+      "dolar": 108.24
+    },
+    {
+      "date": "2018-10-01",
+      "yearMonth": "2018-10",
+      "real": 428.31,
+      "dolar": 109.95
+    },
+    {
+      "date": "2018-11-01",
+      "yearMonth": "2018-11",
+      "real": 441.41,
+      "dolar": 109.58
+    },
+    {
+      "date": "2018-12-01",
+      "yearMonth": "2018-12",
+      "real": 430.955,
+      "dolar": 102.95
+    },
+    {
+      "date": "2019-01-01",
+      "yearMonth": "2019-01",
+      "real": 415.595,
+      "dolar": 98.69
+    },
+    {
+      "date": "2019-02-01",
+      "yearMonth": "2019-02",
+      "real": 409.28,
+      "dolar": 97.38
+    },
+    {
+      "date": "2019-03-01",
+      "yearMonth": "2019-03",
+      "real": 401.645,
+      "dolar": 106.7
+    },
+    {
+      "date": "2019-04-01",
+      "yearMonth": "2019-04",
+      "real": 389.975,
+      "dolar": 133.65
+    },
+    {
+      "date": "2019-05-01",
+      "yearMonth": "2019-05",
+      "real": 386.69,
+      "dolar": 126.6633
+    },
+    {
+      "date": "2019-06-01",
+      "yearMonth": "2019-06",
+      "real": 400.48,
+      "dolar": 104.43
+    },
+    {
+      "date": "2019-07-01",
+      "yearMonth": "2019-07",
+      "real": 417.8,
+      "dolar": 103.26
+    },
+    {
+      "date": "2019-08-01",
+      "yearMonth": "2019-08",
+      "real": 416.205,
+      "dolar": 114.22
+    },
+    {
+      "date": "2019-09-01",
+      "yearMonth": "2019-09",
+      "real": 419.685,
+      "dolar": 132.66
+    },
+    {
+      "date": "2019-10-01",
+      "yearMonth": "2019-10",
+      "real": 426.11,
+      "dolar": 118.9
+    },
+    {
+      "date": "2019-11-01",
+      "yearMonth": "2019-11",
+      "real": 448.35,
+      "dolar": 110.86
+    },
+    {
+      "date": "2019-12-01",
+      "yearMonth": "2019-12",
+      "real": 510.14,
+      "dolar": 113.73
+    },
+    {
+      "date": "2020-01-01",
+      "yearMonth": "2020-01",
+      "real": 519.1,
+      "dolar": null
+    },
+    {
+      "date": "2020-02-01",
+      "yearMonth": "2020-02",
+      "real": 487.47,
+      "dolar": 109.76
+    },
+    {
+      "date": "2020-03-01",
+      "yearMonth": "2020-03",
+      "real": 519.095,
+      "dolar": 101.82
+    },
+    {
+      "date": "2020-04-01",
+      "yearMonth": "2020-04",
+      "real": 570.42,
+      "dolar": 93.0
+    },
+    {
+      "date": "2020-05-01",
+      "yearMonth": "2020-05",
+      "real": 579.36,
+      "dolar": 95.9
+    },
+    {
+      "date": "2020-06-01",
+      "yearMonth": "2020-06",
+      "real": 528.705,
+      "dolar": 106.03
+    },
+    {
+      "date": "2020-07-01",
+      "yearMonth": "2020-07",
+      "real": 494.61,
+      "dolar": 104.66
+    },
+    {
+      "date": "2020-08-01",
+      "yearMonth": "2020-08",
+      "real": 542.41,
+      "dolar": 95.33
+    },
+    {
+      "date": "2020-09-01",
+      "yearMonth": "2020-09",
+      "real": 571.735,
+      "dolar": 117.0
+    },
+    {
+      "date": "2020-10-01",
+      "yearMonth": "2020-10",
+      "real": 550.61,
+      "dolar": 124.4933
+    },
+    {
+      "date": "2020-11-01",
+      "yearMonth": "2020-11",
+      "real": 551.035,
+      "dolar": 119.4
+    },
+    {
+      "date": "2020-12-01",
+      "yearMonth": "2020-12",
+      "real": 579.9,
+      "dolar": 126.34
+    },
+    {
+      "date": "2021-01-01",
+      "yearMonth": "2021-01",
+      "real": 617.02,
+      "dolar": 129.75
+    },
+    {
+      "date": "2021-02-01",
+      "yearMonth": "2021-02",
+      "real": 662.46,
+      "dolar": 133.81
+    },
+    {
+      "date": "2021-03-01",
+      "yearMonth": "2021-03",
+      "real": 708.535,
+      "dolar": 155.39
+    },
+    {
+      "date": "2021-04-01",
+      "yearMonth": "2021-04",
+      "real": 738.0,
+      "dolar": 169.36
+    },
+    {
+      "date": "2021-05-01",
+      "yearMonth": "2021-05",
+      "real": 783.19,
+      "dolar": 177.15
+    },
+    {
+      "date": "2021-06-01",
+      "yearMonth": "2021-06",
+      "real": 836.6,
+      "dolar": 196.96
+    },
+    {
+      "date": "2021-07-01",
+      "yearMonth": "2021-07",
+      "real": 882.75,
+      "dolar": 205.48
+    },
+    {
+      "date": "2021-08-01",
+      "yearMonth": "2021-08",
+      "real": 974.23,
+      "dolar": 220.78
+    },
+    {
+      "date": "2021-09-01",
+      "yearMonth": "2021-09",
+      "real": 1060.765,
+      "dolar": 242.4
+    },
+    {
+      "date": "2021-10-01",
+      "yearMonth": "2021-10",
+      "real": 1154.905,
+      "dolar": 256.67
+    },
+    {
+      "date": "2021-11-01",
+      "yearMonth": "2021-11",
+      "real": 1284.965,
+      "dolar": 268.44
+    },
+    {
+      "date": "2021-12-01",
+      "yearMonth": "2021-12",
+      "real": 1399.94,
+      "dolar": 286.16
+    },
+    {
+      "date": "2022-01-01",
+      "yearMonth": "2022-01",
+      "real": 1467.37,
+      "dolar": 258.71
+    },
+    {
+      "date": "2022-02-01",
+      "yearMonth": "2022-02",
+      "real": 1483.97,
+      "dolar": 263.4
+    },
+    {
+      "date": "2022-03-01",
+      "yearMonth": "2022-03",
+      "real": 1384.88,
+      "dolar": 255.04
+    },
+    {
+      "date": "2022-04-01",
+      "yearMonth": "2022-04",
+      "real": 1267.87,
+      "dolar": 263.9
+    },
+    {
+      "date": "2022-05-01",
+      "yearMonth": "2022-05",
+      "real": 1256.205,
+      "dolar": 245.76
+    },
+    {
+      "date": "2022-06-01",
+      "yearMonth": "2022-06",
+      "real": 1297.04,
+      "dolar": 253.08
+    },
+    {
+      "date": "2022-07-01",
+      "yearMonth": "2022-07",
+      "real": 1325.89,
+      "dolar": 248.14
+    },
+    {
+      "date": "2022-08-01",
+      "yearMonth": "2022-08",
+      "real": 1310.47,
+      "dolar": 216.44
+    },
+    {
+      "date": "2022-09-01",
+      "yearMonth": "2022-09",
+      "real": 1300.045,
+      "dolar": 182.21
+    },
+    {
+      "date": "2022-10-01",
+      "yearMonth": "2022-10",
+      "real": 1216.71,
+      "dolar": null
+    },
+    {
+      "date": "2022-11-01",
+      "yearMonth": "2022-11",
+      "real": 1048.85,
+      "dolar": 192.81
+    },
+    {
+      "date": "2022-12-01",
+      "yearMonth": "2022-12",
+      "real": 987.285,
+      "dolar": 194.36
+    },
+    {
+      "date": "2023-01-01",
+      "yearMonth": "2023-01",
+      "real": 1010.815,
+      "dolar": 218.09
+    },
+    {
+      "date": "2023-02-01",
+      "yearMonth": "2023-02",
+      "real": 1069.4,
+      "dolar": 212.24
+    },
+    {
+      "date": "2023-03-01",
+      "yearMonth": "2023-03",
+      "real": 1117.105,
+      "dolar": 220.56
+    },
+    {
+      "date": "2023-04-01",
+      "yearMonth": "2023-04",
+      "real": 1105.52,
+      "dolar": 208.77
+    },
+    {
+      "date": "2023-05-01",
+      "yearMonth": "2023-05",
+      "real": 1073.12,
+      "dolar": 191.64
+    },
+    {
+      "date": "2023-06-01",
+      "yearMonth": "2023-06",
+      "real": 984.37,
+      "dolar": 170.74
+    },
+    {
+      "date": "2023-07-01",
+      "yearMonth": "2023-07",
+      "real": 874.235,
+      "dolar": 168.65
+    },
+    {
+      "date": "2023-08-01",
+      "yearMonth": "2023-08",
+      "real": 823.25,
+      "dolar": 164.01
+    },
+    {
+      "date": "2023-09-01",
+      "yearMonth": "2023-09",
+      "real": 818.9,
+      "dolar": 163.82
+    },
+    {
+      "date": "2023-10-01",
+      "yearMonth": "2023-10",
+      "real": 820.175,
+      "dolar": 181.31
+    },
+    {
+      "date": "2023-11-01",
+      "yearMonth": "2023-11",
+      "real": 858.72,
+      "dolar": 198.9
+    },
+    {
+      "date": "2023-12-01",
+      "yearMonth": "2023-12",
+      "real": 931.23,
+      "dolar": 201.52
+    },
+    {
+      "date": "2024-01-01",
+      "yearMonth": "2024-01",
+      "real": 982.55,
+      "dolar": 203.34
+    },
+    {
+      "date": "2024-02-01",
+      "yearMonth": "2024-02",
+      "real": 999.76,
+      "dolar": 203.66
+    },
+    {
+      "date": "2024-03-01",
+      "yearMonth": "2024-03",
+      "real": 1011.4,
+      "dolar": 236.77
+    },
+    {
+      "date": "2024-04-01",
+      "yearMonth": "2024-04",
+      "real": 1114.135,
+      "dolar": 228.75
+    },
+    {
+      "date": "2024-05-01",
+      "yearMonth": "2024-05",
+      "real": 1194.885,
+      "dolar": 215.6233
+    },
+    {
+      "date": "2024-06-01",
+      "yearMonth": "2024-06",
+      "real": 1262.32,
+      "dolar": 219.5567
+    },
+    {
+      "date": "2024-07-01",
+      "yearMonth": "2024-07",
+      "real": 1384.47,
+      "dolar": 257.86
+    },
+    {
+      "date": "2024-08-01",
+      "yearMonth": "2024-08",
+      "real": 1425.545,
+      "dolar": 265.93
+    },
+    {
+      "date": "2024-09-01",
+      "yearMonth": "2024-09",
+      "real": 1452.05,
+      "dolar": 264.88
+    },
+    {
+      "date": "2024-10-01",
+      "yearMonth": "2024-10",
+      "real": 1481.435,
+      "dolar": 305.73
+    },
+    {
+      "date": "2024-11-01",
+      "yearMonth": "2024-11",
+      "real": 1633.345,
+      "dolar": 353.49
+    },
+    {
+      "date": "2024-12-01",
+      "yearMonth": "2024-12",
+      "real": 1965.72,
+      "dolar": 388.16
+    },
+    {
+      "date": "2025-01-01",
+      "yearMonth": "2025-01",
+      "real": 2243.88,
+      "dolar": 455.87
+    },
+    {
+      "date": "2025-02-01",
+      "yearMonth": "2025-02",
+      "real": 2438.795,
+      "dolar": 443.16
+    },
+    {
+      "date": "2025-03-01",
+      "yearMonth": "2025-03",
+      "real": 2575.86,
+      "dolar": 437.3
+    },
+    {
+      "date": "2025-04-01",
+      "yearMonth": "2025-04",
+      "real": 2504.11,
+      "dolar": 383.22
+    },
+    {
+      "date": "2025-05-01",
+      "yearMonth": "2025-05",
+      "real": 2305.195,
+      "dolar": 228.75
+    },
+    {
+      "date": "2025-06-01",
+      "yearMonth": "2025-06",
+      "real": 2126.1,
+      "dolar": null
+    }
+  ],
+  "latestUfRanking": [
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Espírito Santo",
+      "arabica": 1076132.0,
+      "canephora": 11605.0,
+      "totalCafe": 1087737.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Rio de Janeiro",
+      "arabica": 133749.0,
+      "canephora": 299432.0,
+      "totalCafe": 433181.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Paraná",
+      "arabica": 196025.0,
+      "canephora": 99.0,
+      "totalCafe": 196124.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Minas Gerais",
+      "arabica": 83000.0,
+      "canephora": 50000.0,
+      "totalCafe": 133000.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Acre",
+      "arabica": null,
+      "canephora": 52970.0,
+      "totalCafe": 52970.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Santa Catarina",
+      "arabica": 25400.0,
+      "canephora": null,
+      "totalCafe": 25400.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Rondônia",
+      "arabica": 8531.0,
+      "canephora": 9342.0,
+      "totalCafe": 17873.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "São Paulo",
+      "arabica": 11717.0,
+      "canephora": null,
+      "totalCafe": 11717.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Goiás",
+      "arabica": 20.0,
+      "canephora": 9342.0,
+      "totalCafe": 9362.0
+    },
+    {
+      "sourceLabel": "Área Colhida",
+      "date": "2025-06-01",
+      "locality": "Distrito Federal",
+      "arabica": 7936.0,
+      "canephora": null,
+      "totalCafe": 7936.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Minas Gerais",
+      "arabica": 1076132.0,
+      "canephora": 11605.0,
+      "totalCafe": 1087737.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Espírito Santo",
+      "arabica": 133849.0,
+      "canephora": 299432.0,
+      "totalCafe": 433281.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "São Paulo",
+      "arabica": 199829.0,
+      "canephora": 99.0,
+      "totalCafe": 199928.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Bahia",
+      "arabica": 83000.0,
+      "canephora": 50000.0,
+      "totalCafe": 133000.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Rondônia",
+      "arabica": null,
+      "canephora": 53030.0,
+      "totalCafe": 53030.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Paraná",
+      "arabica": 25400.0,
+      "canephora": null,
+      "totalCafe": 25400.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Rio de Janeiro",
+      "arabica": 12275.0,
+      "canephora": null,
+      "totalCafe": 12275.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Mato Grosso",
+      "arabica": 26.0,
+      "canephora": 9342.0,
+      "totalCafe": 9368.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Goiás",
+      "arabica": 7936.0,
+      "canephora": null,
+      "totalCafe": 7936.0
+    },
+    {
+      "sourceLabel": "Área Plantada",
+      "date": "2025-06-01",
+      "locality": "Acre",
+      "arabica": null,
+      "canephora": 1734.0,
+      "totalCafe": 1734.0
+    }
+  ],
+  "efficiencySeries": [
+    {
+      "year": 2015,
+      "areaColhida": 1964407.5455,
+      "areaPlantada": 2597302.75,
+      "efficiencyPct": 82.88
+    },
+    {
+      "year": 2016,
+      "areaColhida": 2000637.5455,
+      "areaPlantada": 2290332.4545,
+      "efficiencyPct": 87.35
+    },
+    {
+      "year": 2017,
+      "areaColhida": 2037735.0,
+      "areaPlantada": 2243374.75,
+      "efficiencyPct": 90.85
+    },
+    {
+      "year": 2018,
+      "areaColhida": 693195.6364,
+      "areaPlantada": 2210159.9167,
+      "efficiencyPct": 32.5
+    },
+    {
+      "year": 2019,
+      "areaColhida": 388.3333,
+      "areaPlantada": 1958011.4167,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2020,
+      "areaColhida": 410.0,
+      "areaPlantada": 1926198.4167,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2021,
+      "areaColhida": 410.0,
+      "areaPlantada": 1850643.9167,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2022,
+      "areaColhida": 410.0,
+      "areaPlantada": 1868796.9167,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2023,
+      "areaColhida": 410.0,
+      "areaPlantada": 1932676.5833,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2024,
+      "areaColhida": 410.5833,
+      "areaPlantada": 1952876.1667,
+      "efficiencyPct": 0.02
+    },
+    {
+      "year": 2025,
+      "areaColhida": 323749.1667,
+      "areaPlantada": 1935721.3333,
+      "efficiencyPct": 16.74
+    }
+  ],
+  "correlationMatrix": {
+    "columns": [
+      "Cafe_Arabica",
+      "Cafe_Canephora",
+      "Real",
+      "Dolar",
+      "TotalCafe"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.6818,
+        -0.3937,
+        -0.061,
+        0.9877
+      ],
+      [
+        0.6818,
+        1.0,
+        -0.0095,
+        0.0185,
+        0.8047
+      ],
+      [
+        -0.3937,
+        -0.0095,
+        1.0,
+        -0.622,
+        -0.3865
+      ],
+      [
+        -0.061,
+        0.0185,
+        -0.622,
+        1.0,
+        0.0076
+      ],
+      [
+        0.9877,
+        0.8047,
+        -0.3865,
+        0.0076,
+        1.0
+      ]
+    ]
+  },
+  "regressionModels": {
+    "priceLinear": {
+      "available": true,
+      "records": 120,
+      "r2": 0.8798,
+      "rmse": 170.8512,
+      "intercept": -270.449,
+      "coefficient": 6.1482
+    },
+    "pricePolynomial": {
+      "available": true,
+      "records": 120,
+      "degree": 2,
+      "r2": 0.8798,
+      "rmse": 170.8453
+    },
+    "areaLinear": {
+      "available": true,
+      "records": 122,
+      "r2": 0.4222,
+      "rmse": 708538.0575,
+      "intercept": -4450883.6104,
+      "coefficient": 2.4723
+    }
+  },
+  "forecast": {
+    "available": true,
+    "method": "SARIMA(1,1,1)(1,1,1,12)",
+    "records": [
+      {
+        "date": "2025-07-01",
+        "yearMonth": "2025-07",
+        "predictedReal": 1991.841,
+        "lowerReal": 1916.0118,
+        "upperReal": 2067.6701
+      },
+      {
+        "date": "2025-08-01",
+        "yearMonth": "2025-08",
+        "predictedReal": 1933.1699,
+        "lowerReal": 1733.8862,
+        "upperReal": 2132.4536
+      },
+      {
+        "date": "2025-09-01",
+        "yearMonth": "2025-09",
+        "predictedReal": 1916.5773,
+        "lowerReal": 1603.2652,
+        "upperReal": 2229.8895
+      },
+      {
+        "date": "2025-10-01",
+        "yearMonth": "2025-10",
+        "predictedReal": 1894.0817,
+        "lowerReal": 1479.0307,
+        "upperReal": 2309.1327
+      },
+      {
+        "date": "2025-11-01",
+        "yearMonth": "2025-11",
+        "predictedReal": 1874.1864,
+        "lowerReal": 1368.7997,
+        "upperReal": 2379.5731
+      },
+      {
+        "date": "2025-12-01",
+        "yearMonth": "2025-12",
+        "predictedReal": 1888.2612,
+        "lowerReal": 1302.1148,
+        "upperReal": 2474.4075
+      },
+      {
+        "date": "2026-01-01",
+        "yearMonth": "2026-01",
+        "predictedReal": 1909.242,
+        "lowerReal": 1250.1308,
+        "upperReal": 2568.3533
+      },
+      {
+        "date": "2026-02-01",
+        "yearMonth": "2026-02",
+        "predictedReal": 1922.7183,
+        "lowerReal": 1196.952,
+        "upperReal": 2648.4846
+      },
+      {
+        "date": "2026-03-01",
+        "yearMonth": "2026-03",
+        "predictedReal": 1920.5565,
+        "lowerReal": 1133.2698,
+        "upperReal": 2707.8431
+      },
+      {
+        "date": "2026-04-01",
+        "yearMonth": "2026-04",
+        "predictedReal": 1948.3972,
+        "lowerReal": 1103.8171,
+        "upperReal": 2792.9772
+      },
+      {
+        "date": "2026-05-01",
+        "yearMonth": "2026-05",
+        "predictedReal": 1986.4697,
+        "lowerReal": 1088.1218,
+        "upperReal": 2884.8176
+      },
+      {
+        "date": "2026-06-01",
+        "yearMonth": "2026-06",
+        "predictedReal": 2010.2619,
+        "lowerReal": 1061.1265,
+        "upperReal": 2959.3974
+      }
+    ]
+  },
+  "dataQuality": {
+    "duplicateRecords": 0,
+    "columns": [
+      {
+        "column": "Nivel",
+        "validRecords": 8185,
+        "missingRecords": 0,
+        "validPct": 100.0
+      },
+      {
+        "column": "Cod",
+        "validRecords": 8185,
+        "missingRecords": 0,
+        "validPct": 100.0
+      },
+      {
+        "column": "Localidade",
+        "validRecords": 8185,
+        "missingRecords": 0,
+        "validPct": 100.0
+      },
+      {
+        "column": "Data",
+        "validRecords": 8185,
+        "missingRecords": 0,
+        "validPct": 100.0
+      },
+      {
+        "column": "Cafe_Arabica",
+        "validRecords": 4633,
+        "missingRecords": 3552,
+        "validPct": 56.6
+      },
+      {
+        "column": "Cafe_Canephora",
+        "validRecords": 3711,
+        "missingRecords": 4474,
+        "validPct": 45.34
+      },
+      {
+        "column": "Real",
+        "validRecords": 248,
+        "missingRecords": 7937,
+        "validPct": 3.03
+      },
+      {
+        "column": "Dolar",
+        "validRecords": 246,
+        "missingRecords": 7939,
+        "validPct": 3.01
+      },
+      {
+        "column": "TotalCafe",
+        "validRecords": 5442,
+        "missingRecords": 2743,
+        "validPct": 66.49
+      }
+    ]
+  }
+}

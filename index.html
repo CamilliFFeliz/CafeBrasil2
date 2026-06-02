@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Brasil | Dashboard Analítico</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar" aria-label="Navegação principal">
+      <strong>Café Brasil</strong>
+      <div class="navLinks">
+        <a href="#visao-geral">Visão geral</a>
+        <a href="#series">Séries</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#qualidade">Qualidade</a>
+      </div>
+    </nav>
+    <section class="heroGrid">
+      <div>
+        <p class="eyebrow">Data Science Dashboard</p>
+        <h1>Análise de área plantada, área colhida e preços do café no Brasil</h1>
+        <p class="heroText">Interface estática alimentada por JSON gerado no back-end Python. Pronta para GitHub Pages, com indicadores, séries históricas, ranking por UF, regressões e previsão mensal.</p>
+        <div class="heroActions">
+          <a class="button primary" href="#visao-geral">Ver indicadores</a>
+          <a class="button secondary" href="analysis_results.json" target="_blank" rel="noopener">Abrir JSON</a>
+        </div>
+      </div>
+      <aside class="statusCard" aria-live="polite">
+        <span>Status do dataset</span>
+        <strong id="datasetStatus">Carregando...</strong>
+        <small id="generatedAt">Aguardando dados</small>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section id="visao-geral" class="section">
+      <div class="sectionTitle">
+        <p class="eyebrow">Visão geral</p>
+        <h2>Indicadores consolidados</h2>
+      </div>
+      <div id="kpiGrid" class="kpiGrid"></div>
+      <div class="panel">
+        <div class="panelHeader">
+          <h3>Resumo por base de dados</h3>
+          <p>Valores nacionais calculados com registros de nível BR para evitar dupla contagem entre regiões e UFs.</p>
+        </div>
+        <div class="tableWrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Base</th>
+                <th>Registros</th>
+                <th>Localidades</th>
+                <th>Média arábica</th>
+                <th>Média canephora</th>
+                <th>Preço médio R$</th>
+                <th>Completude</th>
+              </tr>
+            </thead>
+            <tbody id="summaryTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="series" class="section twoColumns">
+      <article class="panel chartPanel">
+        <div class="panelHeader">
+          <h3>Preço histórico</h3>
+          <p>Série mensal nacional em reais e dólar.</p>
+        </div>
+        <canvas id="priceChart" height="140"></canvas>
+      </article>
+      <article class="panel chartPanel">
+        <div class="panelHeader">
+          <h3>Área nacional anual</h3>
+          <p>Média anual de área plantada e colhida no Brasil.</p>
+        </div>
+        <canvas id="areaChart" height="140"></canvas>
+      </article>
+      <article class="panel chartPanel">
+        <div class="panelHeader">
+          <h3>Eficiência área colhida / plantada</h3>
+          <p>Indicador percentual nacional calculado por ano.</p>
+        </div>
+        <canvas id="efficiencyChart" height="140"></canvas>
+      </article>
+      <article class="panel chartPanel">
+        <div class="panelHeader">
+          <h3>Ranking estadual mais recente</h3>
+          <p>Top UFs por área total de café no último mês disponível.</p>
+        </div>
+        <canvas id="rankingChart" height="140"></canvas>
+      </article>
+    </section>
+
+    <section id="modelos" class="section">
+      <div class="sectionTitle">
+        <p class="eyebrow">Modelagem</p>
+        <h2>Regressões e previsão</h2>
+      </div>
+      <div id="modelGrid" class="modelGrid"></div>
+      <article class="panel chartPanel forecastPanel">
+        <div class="panelHeader">
+          <h3>Previsão de preço</h3>
+          <p id="forecastMethod">Método: carregando...</p>
+        </div>
+        <canvas id="forecastChart" height="110"></canvas>
+      </article>
+    </section>
+
+    <section id="qualidade" class="section twoColumns qualitySection">
+      <article class="panel">
+        <div class="panelHeader">
+          <h3>Qualidade dos dados</h3>
+          <p>Percentual de preenchimento por coluna após limpeza e padronização.</p>
+        </div>
+        <div id="qualityList" class="qualityList"></div>
+      </article>
+      <article class="panel">
+        <div class="panelHeader">
+          <h3>Matriz de correlação</h3>
+          <p>Correlação entre variáveis numéricas disponíveis.</p>
+        </div>
+        <div id="correlationMatrix" class="correlationMatrix"></div>
+      </article>
+    </section>
+
+    <section class="section infographicSection">
+      <div class="sectionTitle">
+        <p class="eyebrow">Infográfico</p>
+        <h2>Material visual do projeto</h2>
+      </div>
+      <img src="assets/info.jpeg" alt="Infográfico do projeto Café Brasil" loading="lazy" />
+    </section>
+  </main>
+
+  <footer>
+    <p>Dashboard estático gerado para o projeto Café Brasil. Atualize os dados executando o pipeline Python com <code>--export-static</code>.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

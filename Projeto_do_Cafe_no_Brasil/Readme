@@ -1,0 +1,25 @@
+# Execução rápida
+
+Instale as dependências a partir da raiz do projeto:
+
+```bash
+pip install -r ../requirements.txt
+```
+
+Gere o JSON usado pelo front-end:
+
+```bash
+python analise_regressao_dashboard.py --export-static
+```
+
+Gere relatório, JSON e gráficos:
+
+```bash
+python analise_regressao_dashboard.py --report
+```
+
+Execute o dashboard Streamlit opcional:
+
+```bash
+streamlit run analise_regressao_dashboard.py
+```

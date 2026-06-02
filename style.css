@@ -1,0 +1,398 @@
+:root {
+  --bg: #fbf7f0;
+  --surface: #fffdf8;
+  --surface-strong: #fff7e7;
+  --text: #24170f;
+  --muted: #735f4f;
+  --border: #eadbc4;
+  --brand: #704214;
+  --brand-dark: #43270d;
+  --accent: #c78b3b;
+  --accent-soft: #f3dfbf;
+  --success: #406343;
+  --danger: #9d3b25;
+  --shadow: 0 20px 60px rgba(67, 39, 13, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top left, #fff4da 0, var(--bg) 42%, #f8efe2 100%);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+}
+
+.hero {
+  padding: 24px clamp(20px, 5vw, 72px) 64px;
+  background: linear-gradient(135deg, rgba(67, 39, 13, 0.96), rgba(112, 66, 20, 0.9)), url("assets/info.jpeg") center/cover;
+  color: white;
+}
+
+.topbar,
+.heroGrid,
+main,
+footer {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 62px;
+}
+
+.topbar strong {
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.95rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: white;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 42px;
+  align-items: end;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.hero .eyebrow {
+  color: #ffd28d;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 850px;
+  margin-bottom: 18px;
+  font-size: clamp(2.3rem, 5vw, 4.9rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.heroText {
+  max-width: 760px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button.primary {
+  background: white;
+  color: var(--brand-dark);
+}
+
+.button.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  color: white;
+}
+
+.statusCard {
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.18);
+}
+
+.statusCard span,
+.statusCard small {
+  display: block;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.statusCard strong {
+  display: block;
+  margin: 8px 0;
+  font-size: 1.8rem;
+}
+
+main {
+  padding: 42px clamp(20px, 4vw, 36px) 72px;
+}
+
+.section {
+  margin-bottom: 34px;
+}
+
+.sectionTitle {
+  margin-bottom: 20px;
+}
+
+.kpiGrid,
+.modelGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.kpiCard,
+.modelCard,
+.panel {
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background: rgba(255, 253, 248, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.kpiCard,
+.modelCard {
+  padding: 20px;
+}
+
+.kpiCard span,
+.modelCard span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.kpiCard strong,
+.modelCard strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.7rem;
+  letter-spacing: -0.035em;
+}
+
+.kpiCard small,
+.modelCard small {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.panel {
+  overflow: hidden;
+}
+
+.panelHeader {
+  padding: 20px 22px 0;
+}
+
+.panelHeader p {
+  margin-bottom: 16px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th,
+td {
+  padding: 15px 18px;
+  border-top: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background: var(--surface-strong);
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+td {
+  color: #3b2a1d;
+}
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.chartPanel {
+  padding-bottom: 18px;
+}
+
+.chartPanel canvas {
+  width: 100%;
+  padding: 0 16px 12px;
+}
+
+.forecastPanel {
+  margin-top: 18px;
+}
+
+.qualityList {
+  padding: 0 22px 22px;
+}
+
+.qualityItem {
+  margin-top: 14px;
+}
+
+.qualityMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.progressBar {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #eadfcd;
+}
+
+.progressBar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent), var(--success));
+}
+
+.correlationMatrix {
+  padding: 0 22px 22px;
+  overflow-x: auto;
+}
+
+.correlationMatrix table {
+  min-width: 0;
+}
+
+.correlationMatrix td,
+.correlationMatrix th {
+  padding: 10px;
+  text-align: center;
+}
+
+.infographicSection img {
+  display: block;
+  width: min(100%, 700px);
+  max-height: 880px;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: white;
+}
+
+footer {
+  padding: 0 clamp(20px, 4vw, 36px) 38px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+code {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--brand-dark);
+}
+
+.errorBox {
+  padding: 22px;
+  border: 1px solid #efc7bb;
+  border-radius: 20px;
+  background: #fff1ed;
+  color: var(--danger);
+}
+
+@media (max-width: 920px) {
+  .heroGrid,
+  .twoColumns,
+  .kpiGrid,
+  .modelGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 42px;
+  }
+
+  .statusCard {
+    width: 100%;
+  }
+}

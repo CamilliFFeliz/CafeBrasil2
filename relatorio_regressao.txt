@@ -1,0 +1,30 @@
+RELATÓRIO DE ANÁLISE DO CAFÉ BRASIL
+========================================================================
+Gerado em: 2026-06-02T13:02:45
+Registros analisados: 8185
+Período: 2015-01-01 até 2025-06-01
+Localidades: 33
+
+RESUMO POR BASE
+------------------------------------------------------------------------
+Área Colhida: 4092 registros; média Brasil TotalCafe=631424.6341; preço médio Real=807.1723; dólar médio=172.4034.
+Área Plantada: 4093 registros; média Brasil TotalCafe=2074307.8; preço médio Real=806.4856; dólar médio=174.0933.
+
+MODELOS
+------------------------------------------------------------------------
+priceLinear: R²=0.8798; RMSE=170.8512; coeficiente=6.1482; registros=120.
+pricePolynomial: R²=0.8798; RMSE=170.8453; coeficiente=None; registros=120.
+areaLinear: R²=0.4222; RMSE=708538.0575; coeficiente=2.4723; registros=122.
+
+QUALIDADE DOS DADOS
+------------------------------------------------------------------------
+Duplicatas remanescentes: 0
+Nivel: 100.0% válidos (8185 válidos / 0 ausentes)
+Cod: 100.0% válidos (8185 válidos / 0 ausentes)
+Localidade: 100.0% válidos (8185 válidos / 0 ausentes)
+Data: 100.0% válidos (8185 válidos / 0 ausentes)
+Cafe_Arabica: 56.6% válidos (4633 válidos / 3552 ausentes)
+Cafe_Canephora: 45.34% válidos (3711 válidos / 4474 ausentes)
+Real: 3.03% válidos (248 válidos / 7937 ausentes)
+Dolar: 3.01% válidos (246 válidos / 7939 ausentes)
+TotalCafe: 66.49% válidos (5442 válidos / 2743 ausentes)
